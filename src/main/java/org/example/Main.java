@@ -5,5 +5,7 @@ public class Main {
         ExampleArrayList.createStringArrayList();
         System.out.println();
         ExampleArrayList.removeStringArrayList();
+        System.out.println();
+        ExampleArrayList.addItemToArrayList(2,"MUM");
     }
 }
