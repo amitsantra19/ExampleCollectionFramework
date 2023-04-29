@@ -7,5 +7,7 @@ public class Main {
         ExampleArrayList.removeStringArrayList();
         System.out.println();
         ExampleArrayList.addItemToArrayList(2,"MUM");
+        System.out.println();
+        ExampleArrayList.iterateArrayListUsingForeachLambda();
     }
 }

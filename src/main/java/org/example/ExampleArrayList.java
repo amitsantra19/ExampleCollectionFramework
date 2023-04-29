@@ -42,6 +42,35 @@ public class ExampleArrayList {
         System.out.println("Airports after adding at "+index+" New List is: " +list);
     }
 
+    public static void iterateArrayListUsingForeachLambda()
+    {
+        List<String> items = new ArrayList<>();
+        items.add("BLR");
+        items.add("CCU");
+        items.add("MAA");
+        items.add("DEL");
+        System.out.println("Airports :");
+        //Iterate using Java 8 forEach and lambda
+        items.forEach(System.out::println);
+        /*
+            multiple ways of iteration
+            1. for (String item : items) {
+                    System.out.println(item);
+                }
+            2. for(int i = 0; i < items.size(); i++) {
+                System.out.println(items.get(i));
+                }
+            3. Iterator<String> itemIterator = items.iterator();
+               while (itemIterator.hasNext()) {
+                    String item = itemIterator.next();
+                     System.out.println(item);
+                }
+            4. items.forEach(item -> {
+                    System.out.println(item);
+                });
+         */
+    }
+
 
 
 
