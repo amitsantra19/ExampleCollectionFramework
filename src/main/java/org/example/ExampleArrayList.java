@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 /*
@@ -72,6 +73,55 @@ public class ExampleArrayList {
     }
 
 
+    class User {
+        private String name;
+        private int age;
+        public User(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+        public String getName() {
+            return name;
+        }
+        public void setName(String name) {
+            this.name = name;
+        }
+        public int getAge() {
+            return age;
+        }
+        public void setAge(int age) {
+            this.age = age;
+        }
+        @Override
+        public String toString() {
+            return "{" +
+                    "name='" + name + '\'' +
+                    ", age=" + age +
+                    '}';
+        }
+    }
+
+    public void arrayListObjectSortingExample(){
+        List<User> user = new ArrayList<>();
+        user.add(new User("amit", 31));
+        user.add(new User("kumar", 54));
+        user.add(new User("santra", 35));
+        user.add(new User("papai", 32));
+        user.add(new User("ishita", 31));
+        user.add(new User("kuhu", 2));
+        System.out.println("Before Soring Object List: "+user);
+        user.sort(Comparator.comparingInt(User::getAge));
+        /*
+        Some other to write this above sorting logic
+            user.sort((user1, user2) -> {
+            return user1.getAge() - user2.getAge();
+            or
+            Collections.sort(user, Comparator.comparing(User::getName));
+        });
+         */
+        System.out.println("After Soring Object List: "+user);
+
+    }
 
 
 }

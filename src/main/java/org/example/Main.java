@@ -9,5 +9,7 @@ public class Main {
         ExampleArrayList.addItemToArrayList(2,"MUM");
         System.out.println();
         ExampleArrayList.iterateArrayListUsingForeachLambda();
+        ExampleArrayList arrayList = new ExampleArrayList();
+        arrayList.arrayListObjectSortingExample();
     }
 }
