@@ -13,5 +13,7 @@ public class Main {
         arrayList.arrayListObjectSortingExample();
         ExampleLinkedList.creatingLinkedList();
         ExampleLinkedList.removeElementLinkedList();
+        ExampleHashMap.creatingHashMap();
+        ExampleHashMap.accessingAndModifyingHashMap();
     }
 }
