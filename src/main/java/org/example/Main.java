@@ -11,5 +11,7 @@ public class Main {
         ExampleArrayList.iterateArrayListUsingForeachLambda();
         ExampleArrayList arrayList = new ExampleArrayList();
         arrayList.arrayListObjectSortingExample();
+        ExampleLinkedList.creatingLinkedList();
+        ExampleLinkedList.removeElementLinkedList();
     }
 }
