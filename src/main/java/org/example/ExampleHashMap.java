@@ -44,5 +44,23 @@ public class ExampleHashMap {
         System.out.println("Lisa's city : " + userCityMapping.get("Lisa"));
     }
 
+    public static void iteratingThroughHashMap(){
+        Map<String, Double> employeeSalary = new HashMap<>();
+        employeeSalary.put("David", 76000.00);
+        employeeSalary.put("John", 120000.00);
+        employeeSalary.put("Mark", 95000.00);
+        employeeSalary.put("Steven", 134000.00);
+
+        System.out.println("Iterating over a HashMap using Java 8 forEach and lambda::");
+        employeeSalary.forEach((employee, salary) -> {
+            System.out.println(employee + "=" + salary);
+        });
+        /* Another way
+        System.out.println("\n=== Iterating over the HashMap's entrySet using Java 8 forEach and lambda ===");
+        employeeSalary.entrySet().forEach(entry -> {
+                System.out.println(entry.getKey() + " = " + entry.getValue());
+        });
+         */
+    }
 
 }

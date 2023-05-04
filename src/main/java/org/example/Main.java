@@ -15,5 +15,6 @@ public class Main {
         ExampleLinkedList.removeElementLinkedList();
         ExampleHashMap.creatingHashMap();
         ExampleHashMap.accessingAndModifyingHashMap();
+        ExampleHashMap.iteratingThroughHashMap();
     }
 }
