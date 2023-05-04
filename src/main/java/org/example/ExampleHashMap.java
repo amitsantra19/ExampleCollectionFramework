@@ -2,6 +2,14 @@ package org.example;
 
 import java.util.HashMap;
 import java.util.Map;
+/*
+Java HashMap is a hash table based implementation of Java’s Map interface. A Map, as you might know,
+is a collection of key-value pairs. It maps keys to values.
+A HashMap cannot contain duplicate keys.
+Java HashMap allows null values and the null key.
+HashMap is an unordered collection. It does not guarantee any specific order of the elements.
+Java HashMap is not thread-safe. You must explicitly synchronize concurrent modifications to the HashMap.
+ */
 
 public class ExampleHashMap {
     public static void creatingHashMap(){
