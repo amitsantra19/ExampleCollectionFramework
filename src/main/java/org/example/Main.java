@@ -28,5 +28,6 @@ public class Main {
         System.out.println();
         ExampleLinkedHashMap.createAndAccessLinkedHashMap();
         System.out.println();
+        ExampleHashSet.CreateAndManipulateHashSet();
     }
 }
