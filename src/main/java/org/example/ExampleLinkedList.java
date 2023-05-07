@@ -2,6 +2,15 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+/*
+Java LinkedList is a doubly linked list implementation of Java’s List and Deque interfaces. It is part of Java’s
+collections framework.
+Java LinkedList maintains the insertion order of the elements.
+LinkedList can have duplicate and null values.
+The LinkedList class implements Queue and Deque interfaces. Therefore, It can also be used as a Queue, Deque or Stack.
+Java LinkedList is not thread-safe. You must explicitly synchronize concurrent modifications to the LinkedList
+in a multi-threaded environment.
+ */
 
 public class ExampleLinkedList {
     public static void creatingLinkedList(){
