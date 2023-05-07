@@ -16,5 +16,7 @@ public class Main {
         ExampleHashMap.creatingHashMap();
         ExampleHashMap.accessingAndModifyingHashMap();
         ExampleHashMap.iteratingThroughHashMap();
+        ExampleHashMap hashMap = new ExampleHashMap();
+        hashMap.hashMapUserDefinedObjectExample();
     }
 }
